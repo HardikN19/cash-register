@@ -65,7 +65,7 @@ button{
 
 .error-message table,th,td{
     padding:0.3rem;
-    color: var(--dark-green);
+    color: var(--dark-pink);
     background-color: var(--faint-pink);
     border: 2px solid var(--dark-pink);
 }
