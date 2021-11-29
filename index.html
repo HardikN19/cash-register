@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main">
+        <h1>Cash Register Manager</h1>
+        <p>Enter the bill amount and cash given by the customer to know minimum number of notes to return</p>
+        <div >
+            <label for="bill">Bill Amount</label>
+            <input type="number" class="bill-amount">
+        </div>
+
+        <div>
+            <label for="cash">Cash Amount</label>
+            <input type="number" class="cash-given">
+            <button class="check">Check</button>
+        </div>
+
+        <div>
+            <h2 class="label">Change Return</h2>
+        </div>
+
+        <div class="error-message"></div>
+            <table>
+                <tr>
+                    <th>No of Notes</th>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+
+                </tr>
+                <tr>
+                    <th>Note</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
